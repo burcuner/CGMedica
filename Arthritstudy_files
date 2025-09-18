@@ -1,0 +1,23 @@
+ASO-Exosome-Study/
+│
+├── input_files/
+│   ├── ELF3_ASO.pdb
+│   ├── MED23_ASO.pdb
+│   ├── membranes/ (healthy & OA models)
+│   └── exosome_models/
+│
+├── simulation/
+│   ├── mdp/ (CHARMM36 MD parameter files)
+│   ├── system/ (ions.str, system.str, system.crd)
+│   └── run_scripts/
+│
+├── analysis/
+│   ├── travis_config/
+│   ├── retention_eqn.py
+│   └── results/
+│
+├── figures/
+│   ├── workflow_flowchart.png
+│   └── aso_retention_equation.png
+│
+└── README.md
